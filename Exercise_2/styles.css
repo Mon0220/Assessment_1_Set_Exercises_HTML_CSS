@@ -1,0 +1,81 @@
+/* BASIC RESET: Cleans up default browser margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND: The gray area behind the card */
+body {
+    background-color: #bcbcbc;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+/* THE CARD: The main white box with rounded corners */
+.card {
+    background-color: #ffffff;
+    max-width: 800px;
+    width: 100%;
+    padding: 60px 40px;
+    border-radius: 50px; /* This creates the "pill" shape look */
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* HEADERS: Stylizing the Green Titles */
+.title, .subtitle {
+    font-family: 'Oswald', sans-serif;
+    color: #629e2e; /* The specific green color from the gym logo */
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* PARAGRAPHS: Standard text styling */
+p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left; /* Aligned left as per the image */
+    font-size: 18px;
+}
+
+/* HIGHLIGHT BOX: The green "Did you know?" section */
+.info-box {
+    background-color: #629e2e;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 40px 0;
+    text-align: left;
+}
+
+.info-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    color: white; /* Makes sure the text inside the green box is white */
+    margin-bottom: 0;
+}
+
+/* RESPONSIVENESS: Makes the text smaller on phones */
+@media (max-width: 600px) {
+    .title { font-size: 50px; }
+    .subtitle { font-size: 30px; }
+    .card { padding: 30px 20px; }
+}
