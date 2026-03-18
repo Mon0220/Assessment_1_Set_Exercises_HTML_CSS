@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wandering Photographer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <!-- Skip link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+
+    <!-- Shopping cart -->
+    <a href="#" class="cart-link" aria-label="Go to shopping cart">
+      <img src="./images/shopping.svg" alt="">
+    </a>
+
+    <!-- Decorative divider -->
+    <img src="./images/TheDivider.png" alt="" class="divider" aria-hidden="true">
+
+    <h1>The Wandering Photographer</h1>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Me</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main id="main-content" class="gallery">
+
+    <h2>Photo Gallery</h2>
+
+    <!-- Photo 1 -->
+    <article class="photo-card">
+      <figure>
+        <img src="./images/OceanPhoto.jpg"
+             alt="View of the Greenland coast with calm blue sea and soft sunset sky">
+        <figcaption>
+          This was from a fabulous trip to the coast of Greenland with my family.
+          The water was lovely, but very cold!
+        </figcaption>
+      </figure>
+      <button type="button">Add to basket</button>
+    </article>
+
+    <!-- Photo 2 -->
+    <article class="photo-card">
+      <figure>
+        <img src="./images/BridgePhoto.jpg"
+             alt="Upward view of the Golden Gate Bridge in San Francisco against a bright sky">
+        <figcaption>
+          A picture of the Golden Gate Bridge in San Francisco.
+        </figcaption>
+      </figure>
+      <button type="button">Add to basket</button>
+    </article>
+
+    <!-- Photo 3 -->
+    <article class="photo-card">
+      <figure>
+        <img src="./images/ValleyPhoto.jpg"
+             alt="Wide view of a river valley in Greenland surrounded by mountains">
+        <figcaption>
+          Another great photo from Greenland. It is a river valley where a glacier used to be.
+        </figcaption>
+      </figure>
+      <button type="button">Add to basket</button>
+    </article>
+
+    <!-- Photo 4 -->
+    <article class="photo-card">
+      <figure>
+        <img src="./images/WaterfallPhoto.jpg"
+             alt="Large waterfall falling into a pool surrounded by green mossy rocks">
+        <figcaption>
+          The waterfall made such a lovely sound. I could have fallen asleep!
+        </figcaption>
+      </figure>
+      <button type="button">Add to basket</button>
+    </article>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2018 The Wandering Photographer.</p>
+  </footer>
+
+</body>
+</html>
